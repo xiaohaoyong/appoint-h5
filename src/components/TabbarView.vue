@@ -12,12 +12,6 @@
                 <img :src="props.active ? icon.area.active : icon.area.inactive" />
             </template>
         </van-tabbar-item>
-        <van-tabbar-item to="/helper">
-            <span>选苗助手</span>
-            <template #icon="props">
-                <img :src="props.active ? icon.helper.active : icon.helper.inactive" />
-            </template>
-        </van-tabbar-item>
         <van-tabbar-item to="/my">
             <span>我的</span>
             <template #icon="props">

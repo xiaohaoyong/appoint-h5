@@ -18,10 +18,5 @@ module.exports = {
     'no-console': 'off',
     'no-debugger': 'off',
     'vue/no-v-model-argument': 'warn'
-  },
-
-  'extends': [
-    'plugin:vue/recommended',
-    '@vue/standard'
-  ]
+  }
 }
