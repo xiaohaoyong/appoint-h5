@@ -39,7 +39,7 @@
 
     <div class="wiki" style="height: auto">
       <div class="header">
-          <van-image :src="bottomArticleImg" height="20.5" style="margin-left: 20px"/>
+          <van-image :src="bottomArticleImg" height="20.5" width="101.5" style="margin-left: 20px"/>
       </div>
       <div class="article-list"  v-for="item in tips" :key="item" >
       <router-link  :to="{ path: '/article-view', query: { id: item.id}}">
