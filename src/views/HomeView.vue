@@ -17,8 +17,12 @@
             </van-grid-item>
         </van-grid>
         <div class="nav">
+          <router-link to="/wiki-topic?t=child">
           <van-image :src="childNav" width="163" height="58" />
+          </router-link>
+          <router-link to="/wiki-topic?t=adult">
           <van-image :src="adultNav" width="163" height="58" />
+          </router-link>
         </div>
     </div>
     <div class="wiki">

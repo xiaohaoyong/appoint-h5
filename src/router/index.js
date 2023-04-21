@@ -14,6 +14,8 @@ import ContactsAdd from '../views/ContactsAdd.vue'
 import ContactsList from '../views/ContactsList.vue'
 import AppointList from '../views/AppointList.vue'
 import OrderList from '../views/OrderList.vue'
+import WikiTopic from '@/views/WikiTopic'
+import WikHome from '@/views/WikHome'
 
 const routes = [
   {
@@ -90,6 +92,16 @@ const routes = [
     path: '/my',
     name: 'my',
     component: MyView
+  },
+  {
+    path: '/wiki-topic',
+    name: 'wiki-topic',
+    component: WikiTopic
+  },
+  {
+    path: '/wiki-home',
+    name: 'wiki-home',
+    component: WikHome
   }
 ]
 
